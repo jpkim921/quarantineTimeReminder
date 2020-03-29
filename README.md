@@ -1,2 +1,0 @@
-# quarantineTimeReminder
-Created with CodeSandbox
