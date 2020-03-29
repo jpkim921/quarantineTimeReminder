@@ -1,5 +1,8 @@
 import React from "react";
 import EmailInput from "./emailInput";
+import GenderInput from "./genderInput";
+
+import "./styles/inputStyle.css";
 
 export default class InputContainer extends React.Component {
   state = {
@@ -17,16 +20,22 @@ export default class InputContainer extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>InputContainer</h1>
-        <EmailInput
-          updateUserEmail={this.updateUserEmail}
-          email={this.state.email}
-        />
-        <p>--|{this.state.email}|--</p>
-        <p>--|{this.state.gender}|--</p>
-        <p>--|{this.state.dob_age}|--</p>
-        <p>--|{this.state.date}|--</p>
+      <div className="input-form">
+        <h4>input form</h4>
+        <form>
+          <EmailInput
+            updateUserEmail={this.updateUserEmail}
+            email={this.state.email}
+          />
+          <GenderInput
+            // updateUserEmail={this.updateUserEmail}
+            gender={this.state.gender}
+          />
+          <p>--|{this.state.email}|--</p>
+          <p>--|{this.state.gender}|--</p>
+          <p>--|{this.state.dob_age}|--</p>
+          <p>--|{this.state.date}|--</p>
+        </form>
       </div>
     );
   }

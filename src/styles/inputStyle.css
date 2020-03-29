@@ -1,0 +1,27 @@
+.input-form {
+  width: 640px;
+  border: 1px solid green;
+  margin: 0 auto;
+  padding: 10px 50px;
+  background-color: #eee;
+}
+
+.user-input {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.email-input {
+  /* temp background color */
+  background-color: rgb(219, 186, 219);
+
+  width: 100%;
+  font-size: 1.8em;
+  border-style: hidden;
+  border-bottom: 0.5px solid #ddd;
+  border-radius: 5px 5px 0 0;
+  outline: none;
+}
+
+.button-holder {
+}

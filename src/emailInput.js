@@ -7,21 +7,15 @@ export default class EmailInput extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>EmailInput</h1>
-        <form>
-          <label>
-            Email:
-            <input
-              class="userInput"
-              name="email"
-              type="text"
-              placeholder="Email:"
-              onChange={this.sendData}
-              value={this.props.email}
-            />
-          </label>
-        </form>
+      <div className="user-input">
+        <input
+          className="email-input no-outline"
+          name="email"
+          type="text"
+          placeholder="Email:"
+          onChange={this.sendData}
+          value={this.props.email}
+        />
       </div>
     );
   }
