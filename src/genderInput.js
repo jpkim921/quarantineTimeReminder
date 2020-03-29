@@ -9,8 +9,12 @@ export default class GenderInput extends React.Component {
     return (
       <div className="user-input">
         <div className="button-holder">
-          <button className="gender-button">Male</button>
-          <button className="gender-button">FeMale</button>
+          <button className="gender-button">
+            <i class="fas fa-male" /> Male
+          </button>
+          <button className="gender-button">
+            <i class="fas fa-female" /> FeMale
+          </button>
         </div>
       </div>
     );
