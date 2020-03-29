@@ -2,7 +2,7 @@ import React from "react";
 
 export default class EmailInput extends React.Component {
   sendData = event => {
-    this.props.updateUserEmail(event.target.value);
+    this.props.updateUserInput(event.target);
   };
 
   render() {

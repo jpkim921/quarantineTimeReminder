@@ -12,9 +12,9 @@ export default class InputContainer extends React.Component {
     date: ""
   };
 
-  updateUserEmail = email => {
+  updateUserInput = input => {
     this.setState({
-      email: email
+      [input.name]: input.value
     });
   };
 
@@ -24,11 +24,11 @@ export default class InputContainer extends React.Component {
         <h4>input form</h4>
         <form>
           <EmailInput
-            updateUserEmail={this.updateUserEmail}
+            updateUserInput={this.updateUserInput}
             email={this.state.email}
           />
           <GenderInput
-            // updateUserEmail={this.updateUserEmail}
+            updateUserInput={this.updateUserInput}
             gender={this.state.gender}
           />
           <p>--|{this.state.email}|--</p>
