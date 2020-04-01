@@ -7,9 +7,10 @@ export default class EmailInput extends React.Component {
 
   render() {
     return (
-      <div className="user-input">
+      <div className="user-input-container">
+        <h3>Enter email where the Calendar file will be sent:</h3>
         <input
-          className="email-input no-outline"
+          className="user-input"
           name="email"
           type="text"
           placeholder="Email:"

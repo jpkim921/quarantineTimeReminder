@@ -8,7 +8,7 @@ export default class GenderInput extends React.Component {
 
   render() {
     return (
-      <div className="user-input">
+      <div className="user-input-container">
         <div className="button-holder">
           <button
             className="gender-button"

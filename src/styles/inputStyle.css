@@ -1,26 +1,23 @@
 .input-form {
-  width: 640px;
-  border: 1px solid green;
+  width: 75%;
+  /* border: 1px solid green; */
   margin: 0 auto;
   padding: 10px 30px;
-  background-color: #eee;
+  background-color: rgba(248, 249, 249, 0.2);
+  border-radius: 20px;
 }
 
-.user-input {
+.user-input-container {
   width: 75%;
   margin: 0 auto;
 }
 
-.email-input {
-  /* temp background color */
-  background-color: rgb(219, 186, 219);
-
+.user-input {
   width: 100%;
-  font-size: 1.8em;
+  font-size: 1.5em;
   border-style: hidden;
   border-bottom: 0.5px solid #ddd;
-  border-radius: 5px 5px 0 0;
-  outline: none;
+  border-radius: 5px;
 }
 
 .gender-button {
