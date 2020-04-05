@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
 
-import InputContainer from "./inputContainer";
+import FormContainer from "./FormContainer";
 
 export default function App() {
   return (
     <div className="App">
-      <InputContainer />
+      <FormContainer />
     </div>
   );
 }
